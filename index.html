@@ -309,5 +309,12 @@
       <p class="footer-bottom">© 2026 Bike Parts Field Guide · Educational demo</p>
     </div>
   </footer>
+
+  <script type="module">
+    import { createAdaEmbedInterface } from "https://messaging-assets.ada.support/sdk.js";
+
+    const adaEmbed = createAdaEmbedInterface();
+    await adaEmbed.start({ handle: "merle" });
+  </script>
 </body>
 </html>
