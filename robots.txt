@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fabricedellamea-ux.github.io/bike-parts-field-guide/sitemap.xml
